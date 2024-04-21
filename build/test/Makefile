@@ -110,6 +110,48 @@ depend:
 	cd /mnt/e/mprpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+test/CMakeFiles/test.dir/rule:
+	cd /mnt/e/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
+.PHONY : test/CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: test/CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+test.o: test.cc.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cc.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cc.o
+.PHONY : test.cc.o
+
+test.i: test.cc.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cc.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cc.i
+.PHONY : test.cc.i
+
+test.s: test.cc.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cc.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cc.s
+.PHONY : test.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

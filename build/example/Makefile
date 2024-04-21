@@ -110,6 +110,48 @@ depend:
 	cd /mnt/e/mprpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+example/CMakeFiles/exam.dir/rule:
+	cd /mnt/e/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/exam.dir/rule
+.PHONY : example/CMakeFiles/exam.dir/rule
+
+# Convenience name for target.
+exam: example/CMakeFiles/exam.dir/rule
+
+.PHONY : exam
+
+# fast build rule for target.
+exam/fast:
+	cd /mnt/e/mprpc/build && $(MAKE) -f example/CMakeFiles/exam.dir/build.make example/CMakeFiles/exam.dir/build
+.PHONY : exam/fast
+
+exam.o: exam.cc.o
+
+.PHONY : exam.o
+
+# target to build an object file
+exam.cc.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f example/CMakeFiles/exam.dir/build.make example/CMakeFiles/exam.dir/exam.cc.o
+.PHONY : exam.cc.o
+
+exam.i: exam.cc.i
+
+.PHONY : exam.i
+
+# target to preprocess a source file
+exam.cc.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f example/CMakeFiles/exam.dir/build.make example/CMakeFiles/exam.dir/exam.cc.i
+.PHONY : exam.cc.i
+
+exam.s: exam.cc.s
+
+.PHONY : exam.s
+
+# target to generate assembly for a file
+exam.cc.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f example/CMakeFiles/exam.dir/build.make example/CMakeFiles/exam.dir/exam.cc.s
+.PHONY : exam.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... exam"
+	@echo "... exam.o"
+	@echo "... exam.i"
+	@echo "... exam.s"
 .PHONY : help
 
 

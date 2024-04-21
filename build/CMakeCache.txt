@@ -146,21 +146,6 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=project
 
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=0.0.1
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=1
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_TWEAK:STATIC=
-
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
@@ -222,12 +207,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
-
-//Value Computed by CMake
-my_project_name_BINARY_DIR:STATIC=/mnt/e/mprpc/build
-
-//Value Computed by CMake
-my_project_name_SOURCE_DIR:STATIC=/mnt/e/mprpc
 
 //Value Computed by CMake
 project_BINARY_DIR:STATIC=/mnt/e/mprpc/build
