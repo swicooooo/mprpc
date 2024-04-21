@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/mnt/e/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/mnt/e/mprpc/include  -g -g   -o CMakeFiles/mprpc.dir/MprpcApplication.cpp.o -c /mnt/e/mprpc/src/MprpcApplication.cpp",
+  "file": "/mnt/e/mprpc/src/MprpcApplication.cpp"
+},
+{
+  "directory": "/mnt/e/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/mnt/e/mprpc/include  -g -g   -o CMakeFiles/mprpc.dir/RpcProvider.cpp.o -c /mnt/e/mprpc/src/RpcProvider.cpp",
+  "file": "/mnt/e/mprpc/src/RpcProvider.cpp"
+},
+{
+  "directory": "/mnt/e/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/mnt/e/mprpc/include  -g -g   -o CMakeFiles/mprpc.dir/main.cpp.o -c /mnt/e/mprpc/src/main.cpp",
+  "file": "/mnt/e/mprpc/src/main.cpp"
+}
+]

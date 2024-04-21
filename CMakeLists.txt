@@ -1,20 +1,11 @@
 cmake_minimum_required(VERSION 3.16.3)
 
-set(CMAKE_CXX_STANDARD 17)
-# set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_C_STANDARD 11)
+project(project)
 
-if (NOT CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE Release)
-    message("Setting default build type to Release")
-endif()
-
-project(my_project_name VERSION 0.0.1 LANGUAGES C CXX)
+set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} -g)              # 配置编译选项
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)   # 设置可执行文件输出路径
+# set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)    # 设置库文件输出路径
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_subdirectory(./src)
-
-add_subdirectory(./test)
-
-add_subdirectory(./example)

@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -g   CMakeFiles/mprpc.dir/MprpcApplication.cpp.o CMakeFiles/mprpc.dir/RpcProvider.cpp.o CMakeFiles/mprpc.dir/main.cpp.o  -o ../../bin/mprpc 
