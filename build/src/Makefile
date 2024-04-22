@@ -152,6 +152,33 @@ MprpcApplication.cpp.s:
 	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.s
 .PHONY : MprpcApplication.cpp.s
 
+MprpcConfig.o: MprpcConfig.cpp.o
+
+.PHONY : MprpcConfig.o
+
+# target to build an object file
+MprpcConfig.cpp.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o
+.PHONY : MprpcConfig.cpp.o
+
+MprpcConfig.i: MprpcConfig.cpp.i
+
+.PHONY : MprpcConfig.i
+
+# target to preprocess a source file
+MprpcConfig.cpp.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.i
+.PHONY : MprpcConfig.cpp.i
+
+MprpcConfig.s: MprpcConfig.cpp.s
+
+.PHONY : MprpcConfig.s
+
+# target to generate assembly for a file
+MprpcConfig.cpp.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.s
+.PHONY : MprpcConfig.cpp.s
+
 RpcProvider.o: RpcProvider.cpp.o
 
 .PHONY : RpcProvider.o
@@ -218,6 +245,9 @@ help:
 	@echo "... MprpcApplication.o"
 	@echo "... MprpcApplication.i"
 	@echo "... MprpcApplication.s"
+	@echo "... MprpcConfig.o"
+	@echo "... MprpcConfig.i"
+	@echo "... MprpcConfig.s"
 	@echo "... RpcProvider.o"
 	@echo "... RpcProvider.i"
 	@echo "... RpcProvider.s"

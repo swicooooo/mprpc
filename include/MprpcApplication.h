@@ -4,8 +4,8 @@
 class MprpcApplication
 {
 public:
-    static void init(int argc, char const *argv[]);    // 初始化
-    static MprpcApplication& instance();               // 获取单例对象 
+    static void init(int argc, char *argv[]);    // 初始化
+    static MprpcApplication& instance();         // 获取单例对象 
 private:
     MprpcApplication();
     MprpcApplication(const MprpcApplication&) = delete;

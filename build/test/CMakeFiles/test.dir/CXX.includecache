@@ -6,7 +6,35 @@
 
 #IncludeRegexTransform: 
 
+../include/MprpcConfig.h
+unordered_map
+-
+string
+-
+
+../include/RpcProvider.h
+google/protobuf/service.h
+-
+mymuduo/TcpServer.h
+-
+
+/mnt/e/mprpc/src/MprpcConfig.cpp
+MprpcConfig.h
+/mnt/e/mprpc/src/MprpcConfig.h
+fstream
+-
+
+/mnt/e/mprpc/src/RpcProvider.cpp
+RpcProvider.h
+/mnt/e/mprpc/src/RpcProvider.h
+MprpcConfig.h
+/mnt/e/mprpc/src/MprpcConfig.h
+
 /mnt/e/mprpc/test/test.cc
 iostream
 -
+MprpcConfig.h
+/mnt/e/mprpc/test/MprpcConfig.h
+RpcProvider.h
+/mnt/e/mprpc/test/RpcProvider.h
 

@@ -3,8 +3,13 @@
 
 src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.o
  ../include/MprpcApplication.h
+ ../include/MprpcConfig.h
  /mnt/e/mprpc/src/MprpcApplication.cpp
+src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o
+ ../include/MprpcConfig.h
+ /mnt/e/mprpc/src/MprpcConfig.cpp
 src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o
+ ../include/MprpcConfig.h
  ../include/RpcProvider.h
  /mnt/e/mprpc/src/RpcProvider.cpp
 src/CMakeFiles/mprpc.dir/main.cpp.o

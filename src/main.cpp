@@ -1,9 +1,11 @@
 #include "MprpcApplication.h"
 #include "RpcProvider.h"
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
-    MprpcApplication::init(argc, argv);
+    int argcc = 3;
+    char *argvv[] = {(char *)"mprpc", (char *)"-i", (char *)"test.conf"};
+    MprpcApplication::init(argcc, argvv);
 
     RpcProvider provider;
     // provider.notifyService();
