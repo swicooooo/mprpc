@@ -125,6 +125,87 @@ test/fast:
 	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+__/src/MprpcApplication.o: __/src/MprpcApplication.cpp.o
+
+.PHONY : __/src/MprpcApplication.o
+
+# target to build an object file
+__/src/MprpcApplication.cpp.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o
+.PHONY : __/src/MprpcApplication.cpp.o
+
+__/src/MprpcApplication.i: __/src/MprpcApplication.cpp.i
+
+.PHONY : __/src/MprpcApplication.i
+
+# target to preprocess a source file
+__/src/MprpcApplication.cpp.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/MprpcApplication.cpp.i
+.PHONY : __/src/MprpcApplication.cpp.i
+
+__/src/MprpcApplication.s: __/src/MprpcApplication.cpp.s
+
+.PHONY : __/src/MprpcApplication.s
+
+# target to generate assembly for a file
+__/src/MprpcApplication.cpp.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/MprpcApplication.cpp.s
+.PHONY : __/src/MprpcApplication.cpp.s
+
+__/src/MprpcConfig.o: __/src/MprpcConfig.cpp.o
+
+.PHONY : __/src/MprpcConfig.o
+
+# target to build an object file
+__/src/MprpcConfig.cpp.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/MprpcConfig.cpp.o
+.PHONY : __/src/MprpcConfig.cpp.o
+
+__/src/MprpcConfig.i: __/src/MprpcConfig.cpp.i
+
+.PHONY : __/src/MprpcConfig.i
+
+# target to preprocess a source file
+__/src/MprpcConfig.cpp.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/MprpcConfig.cpp.i
+.PHONY : __/src/MprpcConfig.cpp.i
+
+__/src/MprpcConfig.s: __/src/MprpcConfig.cpp.s
+
+.PHONY : __/src/MprpcConfig.s
+
+# target to generate assembly for a file
+__/src/MprpcConfig.cpp.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/MprpcConfig.cpp.s
+.PHONY : __/src/MprpcConfig.cpp.s
+
+__/src/RpcProvider.o: __/src/RpcProvider.cpp.o
+
+.PHONY : __/src/RpcProvider.o
+
+# target to build an object file
+__/src/RpcProvider.cpp.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/RpcProvider.cpp.o
+.PHONY : __/src/RpcProvider.cpp.o
+
+__/src/RpcProvider.i: __/src/RpcProvider.cpp.i
+
+.PHONY : __/src/RpcProvider.i
+
+# target to preprocess a source file
+__/src/RpcProvider.cpp.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/RpcProvider.cpp.i
+.PHONY : __/src/RpcProvider.cpp.i
+
+__/src/RpcProvider.s: __/src/RpcProvider.cpp.s
+
+.PHONY : __/src/RpcProvider.s
+
+# target to generate assembly for a file
+__/src/RpcProvider.cpp.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/RpcProvider.cpp.s
+.PHONY : __/src/RpcProvider.cpp.s
+
 test.o: test.cc.o
 
 .PHONY : test.o
@@ -161,6 +242,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... __/src/MprpcApplication.o"
+	@echo "... __/src/MprpcApplication.i"
+	@echo "... __/src/MprpcApplication.s"
+	@echo "... __/src/MprpcConfig.o"
+	@echo "... __/src/MprpcConfig.i"
+	@echo "... __/src/MprpcConfig.s"
+	@echo "... __/src/RpcProvider.o"
+	@echo "... __/src/RpcProvider.i"
+	@echo "... __/src/RpcProvider.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

@@ -21,6 +21,21 @@
 },
 {
   "directory": "/mnt/e/mprpc/build/test",
+  "command": "/usr/bin/g++   -I/mnt/e/mprpc/include  -g -g   -o CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o -c /mnt/e/mprpc/src/MprpcApplication.cpp",
+  "file": "/mnt/e/mprpc/src/MprpcApplication.cpp"
+},
+{
+  "directory": "/mnt/e/mprpc/build/test",
+  "command": "/usr/bin/g++   -I/mnt/e/mprpc/include  -g -g   -o CMakeFiles/test.dir/__/src/MprpcConfig.cpp.o -c /mnt/e/mprpc/src/MprpcConfig.cpp",
+  "file": "/mnt/e/mprpc/src/MprpcConfig.cpp"
+},
+{
+  "directory": "/mnt/e/mprpc/build/test",
+  "command": "/usr/bin/g++   -I/mnt/e/mprpc/include  -g -g   -o CMakeFiles/test.dir/__/src/RpcProvider.cpp.o -c /mnt/e/mprpc/src/RpcProvider.cpp",
+  "file": "/mnt/e/mprpc/src/RpcProvider.cpp"
+},
+{
+  "directory": "/mnt/e/mprpc/build/test",
   "command": "/usr/bin/g++   -I/mnt/e/mprpc/include  -g -g   -o CMakeFiles/test.dir/test.cc.o -c /mnt/e/mprpc/test/test.cc",
   "file": "/mnt/e/mprpc/test/test.cc"
 }

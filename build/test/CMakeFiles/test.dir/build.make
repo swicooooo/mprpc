@@ -57,9 +57,48 @@ include test/CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/test.dir/flags.make
 
+test/CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o: ../src/MprpcApplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o"
+	cd /mnt/e/mprpc/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o -c /mnt/e/mprpc/src/MprpcApplication.cpp
+
+test/CMakeFiles/test.dir/__/src/MprpcApplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/src/MprpcApplication.cpp.i"
+	cd /mnt/e/mprpc/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/MprpcApplication.cpp > CMakeFiles/test.dir/__/src/MprpcApplication.cpp.i
+
+test/CMakeFiles/test.dir/__/src/MprpcApplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/MprpcApplication.cpp.s"
+	cd /mnt/e/mprpc/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/MprpcApplication.cpp -o CMakeFiles/test.dir/__/src/MprpcApplication.cpp.s
+
+test/CMakeFiles/test.dir/__/src/MprpcConfig.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/__/src/MprpcConfig.cpp.o: ../src/MprpcConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test.dir/__/src/MprpcConfig.cpp.o"
+	cd /mnt/e/mprpc/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/__/src/MprpcConfig.cpp.o -c /mnt/e/mprpc/src/MprpcConfig.cpp
+
+test/CMakeFiles/test.dir/__/src/MprpcConfig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/src/MprpcConfig.cpp.i"
+	cd /mnt/e/mprpc/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/MprpcConfig.cpp > CMakeFiles/test.dir/__/src/MprpcConfig.cpp.i
+
+test/CMakeFiles/test.dir/__/src/MprpcConfig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/MprpcConfig.cpp.s"
+	cd /mnt/e/mprpc/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/MprpcConfig.cpp -o CMakeFiles/test.dir/__/src/MprpcConfig.cpp.s
+
+test/CMakeFiles/test.dir/__/src/RpcProvider.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/__/src/RpcProvider.cpp.o: ../src/RpcProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/test.dir/__/src/RpcProvider.cpp.o"
+	cd /mnt/e/mprpc/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/__/src/RpcProvider.cpp.o -c /mnt/e/mprpc/src/RpcProvider.cpp
+
+test/CMakeFiles/test.dir/__/src/RpcProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/src/RpcProvider.cpp.i"
+	cd /mnt/e/mprpc/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/RpcProvider.cpp > CMakeFiles/test.dir/__/src/RpcProvider.cpp.i
+
+test/CMakeFiles/test.dir/__/src/RpcProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/RpcProvider.cpp.s"
+	cd /mnt/e/mprpc/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/RpcProvider.cpp -o CMakeFiles/test.dir/__/src/RpcProvider.cpp.s
+
 test/CMakeFiles/test.dir/test.cc.o: test/CMakeFiles/test.dir/flags.make
 test/CMakeFiles/test.dir/test.cc.o: ../test/test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test.dir/test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/test.dir/test.cc.o"
 	cd /mnt/e/mprpc/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test.cc.o -c /mnt/e/mprpc/test/test.cc
 
 test/CMakeFiles/test.dir/test.cc.i: cmake_force
@@ -72,15 +111,21 @@ test/CMakeFiles/test.dir/test.cc.s: cmake_force
 
 # Object files for target test
 test_OBJECTS = \
+"CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o" \
+"CMakeFiles/test.dir/__/src/MprpcConfig.cpp.o" \
+"CMakeFiles/test.dir/__/src/RpcProvider.cpp.o" \
 "CMakeFiles/test.dir/test.cc.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
+../bin/test: test/CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o
+../bin/test: test/CMakeFiles/test.dir/__/src/MprpcConfig.cpp.o
+../bin/test: test/CMakeFiles/test.dir/__/src/RpcProvider.cpp.o
 ../bin/test: test/CMakeFiles/test.dir/test.cc.o
 ../bin/test: test/CMakeFiles/test.dir/build.make
 ../bin/test: test/CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../bin/test"
 	cd /mnt/e/mprpc/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

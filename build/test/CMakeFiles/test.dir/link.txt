@@ -1,1 +1,1 @@
-/usr/bin/g++  -g -g   CMakeFiles/test.dir/test.cc.o  -o ../../bin/test 
+/usr/bin/g++  -g -g   CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o CMakeFiles/test.dir/__/src/MprpcConfig.cpp.o CMakeFiles/test.dir/__/src/RpcProvider.cpp.o CMakeFiles/test.dir/test.cc.o  -o ../../bin/test  -lmymuduo -lpthread 
