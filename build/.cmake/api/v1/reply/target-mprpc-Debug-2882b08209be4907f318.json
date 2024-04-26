@@ -62,7 +62,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -86,6 +87,10 @@
 			{
 				"fragment" : "-lpthread",
 				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lprotobuf",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
@@ -106,7 +111,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -134,6 +140,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/user.pb.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

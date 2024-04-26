@@ -1,8 +1,21 @@
 #include "RpcProvider.h"
 #include "MprpcConfig.h"
 
+#include <google/protobuf/descriptor.h>
+#include <mymuduo/Logger.h>
+
 void RpcProvider::notifyService(google::protobuf::Service *service) 
 {
+    ServiceInfo serviceInfo;
+    serviceInfo.service_ = service;
+    auto descriptor = service->GetDescriptor();
+    LOG_INFO("service name: %s", descriptor->name().c_str());
+    for (size_t i = 0; i < descriptor->method_count(); i++)
+    {
+        serviceInfo.methods_.insert({descriptor->method(i)->name(),descriptor->method(i)});
+        LOG_INFO("method name: %s", descriptor->method(i)->name().c_str());
+    }
+    services_.insert({descriptor->name(), serviceInfo});
 }
 
 void RpcProvider::run()

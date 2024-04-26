@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/e/mprpc/src/MprpcConfig.cpp" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o"
   "/mnt/e/mprpc/src/RpcProvider.cpp" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o"
   "/mnt/e/mprpc/src/main.cpp" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/main.cpp.o"
+  "/mnt/e/mprpc/src/user.pb.cc" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/user.pb.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -2,6 +2,8 @@
 
 #include <google/protobuf/service.h>
 #include <mymuduo/TcpServer.h>
+#include <unordered_map>
+#include <string>
 
 /// @brief 框架提供专门发布rpc服务的网络对象类
 class RpcProvider
@@ -13,4 +15,12 @@ private:
     void onConnection(const TcpConnectionPtr&);
     void onMessage(const TcpConnectionPtr&,Buffer*,Timestamp);
     EventLoop loop_;    // 在此种情况下，不能用指针，TcpServer需要EventLoop的实例
+
+    // service服务类型信息
+    struct ServiceInfo
+    {
+        google::protobuf::Service *service_;    // 服务对象
+        std::unordered_map<std::string,const google::protobuf::MethodDescriptor*> methods_;  // 映射服务名称和方法
+    };
+    std::unordered_map<std::string,ServiceInfo> services_;
 };

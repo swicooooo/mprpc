@@ -233,6 +233,33 @@ main.cpp.s:
 	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+user.pb.o: user.pb.cc.o
+
+.PHONY : user.pb.o
+
+# target to build an object file
+user.pb.cc.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/user.pb.cc.o
+.PHONY : user.pb.cc.o
+
+user.pb.i: user.pb.cc.i
+
+.PHONY : user.pb.i
+
+# target to preprocess a source file
+user.pb.cc.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/user.pb.cc.i
+.PHONY : user.pb.cc.i
+
+user.pb.s: user.pb.cc.s
+
+.PHONY : user.pb.s
+
+# target to generate assembly for a file
+user.pb.cc.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/user.pb.cc.s
+.PHONY : user.pb.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -254,6 +281,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... user.pb.o"
+	@echo "... user.pb.i"
+	@echo "... user.pb.s"
 .PHONY : help
 
 
