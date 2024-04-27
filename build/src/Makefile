@@ -206,6 +206,33 @@ RpcProvider.cpp.s:
 	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcProvider.cpp.s
 .PHONY : RpcProvider.cpp.s
 
+header.pb.o: header.pb.cc.o
+
+.PHONY : header.pb.o
+
+# target to build an object file
+header.pb.cc.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/header.pb.cc.o
+.PHONY : header.pb.cc.o
+
+header.pb.i: header.pb.cc.i
+
+.PHONY : header.pb.i
+
+# target to preprocess a source file
+header.pb.cc.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/header.pb.cc.i
+.PHONY : header.pb.cc.i
+
+header.pb.s: header.pb.cc.s
+
+.PHONY : header.pb.s
+
+# target to generate assembly for a file
+header.pb.cc.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/header.pb.cc.s
+.PHONY : header.pb.cc.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -278,6 +305,9 @@ help:
 	@echo "... RpcProvider.o"
 	@echo "... RpcProvider.i"
 	@echo "... RpcProvider.s"
+	@echo "... header.pb.o"
+	@echo "... header.pb.i"
+	@echo "... header.pb.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

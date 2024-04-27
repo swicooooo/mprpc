@@ -25,6 +25,11 @@
   "file": "/mnt/e/mprpc/src/user.pb.cc"
 },
 {
+  "directory": "/mnt/e/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/mnt/e/mprpc/include  -g -g   -o CMakeFiles/mprpc.dir/header.pb.cc.o -c /mnt/e/mprpc/src/header.pb.cc",
+  "file": "/mnt/e/mprpc/src/header.pb.cc"
+},
+{
   "directory": "/mnt/e/mprpc/build/test",
   "command": "/usr/bin/g++   -I/mnt/e/mprpc/include  -g -g   -o CMakeFiles/test.dir/__/src/MprpcApplication.cpp.o -c /mnt/e/mprpc/src/MprpcApplication.cpp",
   "file": "/mnt/e/mprpc/src/MprpcApplication.cpp"
