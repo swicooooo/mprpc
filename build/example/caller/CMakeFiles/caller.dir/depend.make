@@ -9,5 +9,6 @@ example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.o: ../src/user.pb.cc
 
 example/caller/CMakeFiles/caller.dir/caller.cc.o: ../include/MprpcApplication.h
 example/caller/CMakeFiles/caller.dir/caller.cc.o: ../include/MprpcChannel.h
+example/caller/CMakeFiles/caller.dir/caller.cc.o: ../include/user.pb.h
 example/caller/CMakeFiles/caller.dir/caller.cc.o: ../example/caller/caller.cc
 
