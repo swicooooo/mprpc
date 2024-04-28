@@ -152,6 +152,33 @@ MprpcApplication.cpp.s:
 	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.s
 .PHONY : MprpcApplication.cpp.s
 
+MprpcChannel.o: MprpcChannel.cpp.o
+
+.PHONY : MprpcChannel.o
+
+# target to build an object file
+MprpcChannel.cpp.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o
+.PHONY : MprpcChannel.cpp.o
+
+MprpcChannel.i: MprpcChannel.cpp.i
+
+.PHONY : MprpcChannel.i
+
+# target to preprocess a source file
+MprpcChannel.cpp.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.i
+.PHONY : MprpcChannel.cpp.i
+
+MprpcChannel.s: MprpcChannel.cpp.s
+
+.PHONY : MprpcChannel.s
+
+# target to generate assembly for a file
+MprpcChannel.cpp.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.s
+.PHONY : MprpcChannel.cpp.s
+
 MprpcConfig.o: MprpcConfig.cpp.o
 
 .PHONY : MprpcConfig.o
@@ -233,33 +260,6 @@ header.pb.cc.s:
 	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/header.pb.cc.s
 .PHONY : header.pb.cc.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 user.pb.o: user.pb.cc.o
 
 .PHONY : user.pb.o
@@ -299,6 +299,9 @@ help:
 	@echo "... MprpcApplication.o"
 	@echo "... MprpcApplication.i"
 	@echo "... MprpcApplication.s"
+	@echo "... MprpcChannel.o"
+	@echo "... MprpcChannel.i"
+	@echo "... MprpcChannel.s"
 	@echo "... MprpcConfig.o"
 	@echo "... MprpcConfig.i"
 	@echo "... MprpcConfig.s"
@@ -308,9 +311,6 @@ help:
 	@echo "... header.pb.o"
 	@echo "... header.pb.i"
 	@echo "... header.pb.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... user.pb.o"
 	@echo "... user.pb.i"
 	@echo "... user.pb.s"

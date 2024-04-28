@@ -124,17 +124,30 @@ mprpc/fast:
 .PHONY : mprpc/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named callee
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
+callee: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 callee
+.PHONY : callee
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
-.PHONY : test/fast
+callee/fast:
+	$(MAKE) -f example/callee/CMakeFiles/callee.dir/build.make example/callee/CMakeFiles/callee.dir/build
+.PHONY : callee/fast
+
+#=============================================================================
+# Target rules for targets named caller
+
+# Build rule for target.
+caller: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 caller
+.PHONY : caller
+
+# fast build rule for target.
+caller/fast:
+	$(MAKE) -f example/caller/CMakeFiles/caller.dir/build.make example/caller/CMakeFiles/caller.dir/build
+.PHONY : caller/fast
 
 # Help Target
 help:
@@ -145,7 +158,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... mprpc"
-	@echo "... test"
+	@echo "... callee"
+	@echo "... caller"
 .PHONY : help
 
 

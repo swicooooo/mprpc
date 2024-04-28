@@ -5,6 +5,11 @@ src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.o
  ../include/MprpcApplication.h
  ../include/MprpcConfig.h
  /mnt/e/mprpc/src/MprpcApplication.cpp
+src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o
+ ../include/MprpcChannel.h
+ ../include/MprpcConfig.h
+ ../include/header.pb.h
+ /mnt/e/mprpc/src/MprpcChannel.cpp
 src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o
  ../include/MprpcConfig.h
  /mnt/e/mprpc/src/MprpcConfig.cpp
@@ -16,11 +21,6 @@ src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o
 src/CMakeFiles/mprpc.dir/header.pb.cc.o
  ../include/header.pb.h
  /mnt/e/mprpc/src/header.pb.cc
-src/CMakeFiles/mprpc.dir/main.cpp.o
- ../include/MprpcApplication.h
- ../include/RpcProvider.h
- ../include/user.pb.h
- /mnt/e/mprpc/src/main.cpp
 src/CMakeFiles/mprpc.dir/user.pb.cc.o
  ../include/user.pb.h
  /mnt/e/mprpc/src/user.pb.cc

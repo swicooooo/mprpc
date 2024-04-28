@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -g   CMakeFiles/caller.dir/caller.cc.o CMakeFiles/caller.dir/__/__/src/user.pb.cc.o CMakeFiles/caller.dir/__/__/src/header.pb.cc.o  -o ../../../bin/caller  -Wl,-rpath,/mnt/e/mprpc/lib ../../../lib/libmprpc.so -lprotobuf -lmymuduo -lpthread 
