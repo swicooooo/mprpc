@@ -38,10 +38,8 @@ public:
 ///               stub下的rpc方法都统一走rpcChannel，做rpc方法的数据序列化和网络发送
 int main(int argc, char *argv[])
 {
-    int argcc = 3;
-    char *argvv[] = {(char *)"callee", (char *)"-i", (char *)"test.conf"};
-    MprpcApplication::init(argcc, argvv);
-
+    MprpcApplication::init("./test.conf");
+    
     RpcProvider provider;
     provider.notifyService(new UserService());
     provider.run();

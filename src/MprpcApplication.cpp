@@ -4,32 +4,14 @@
 #include <unistd.h>
 #include <mymuduo/Logger.h>
 
-void MprpcApplication::init(int argc, char *argv[])
+void MprpcApplication::init(std::string fileName)
 {
-    // 解析命令行输入的参数
-    if (argc < 2) {
-        LOG_FATAL("format: command -i <configfile>!\n");
-    }
-    int c = 0;
-    std::string fileName;
-    while ((c = getopt(argc, argv, "i:") != -1)) {
-        switch (c)
-        {
-        case 'i':
-            fileName = optarg;
-            break;
-        case '?':
-        case ':':
-            LOG_FATAL("format: command -i <configfile>!\n");
-            break;
-        default:
-            break;
-        }
-    }
-
     // 加载配置文件
     MprpcConfig::instance().loadConfigFile(fileName.c_str());
-    LOG_INFO("success to loadConfigFile!\n");
+    LOG_INFO("rpcserverip:%s", MprpcConfig::instance().load("rpcserverip").c_str());
+    LOG_INFO("rpcserverport:%s", MprpcConfig::instance().load("rpcserverport").c_str());
+    LOG_INFO("zookeeperip:%s", MprpcConfig::instance().load("zookeeperip").c_str());
+    LOG_INFO("zookeeperport:%s", MprpcConfig::instance().load("zookeeperport").c_str());
 }
 
 MprpcApplication &MprpcApplication::instance()
@@ -38,6 +20,3 @@ MprpcApplication &MprpcApplication::instance()
     return app;
 }
 
-MprpcApplication::MprpcApplication()
-{
-}

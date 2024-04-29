@@ -41,8 +41,7 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor *method,
     // 向服务器发送数据后，将返回的数据反序列化给response
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);
     Socket socket(sockfd);
-    // InetAddress peerAddr(atoi(MprpcConfig::instance().load("rpcserverport").c_str()), MprpcConfig::instance().load("rpcserverip"));
-    InetAddress peerAddr(8000);
+    InetAddress peerAddr(atoi(MprpcConfig::instance().load("rpcserverport").c_str()), MprpcConfig::instance().load("rpcserverip"));
     socket.connect(peerAddr);
     int send_len = -1;
     if ((send_len=socket.send((void *)rpc_str.c_str(), rpc_str.size())) == -1)

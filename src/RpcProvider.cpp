@@ -23,9 +23,8 @@ void RpcProvider::run()
 {
     std::string ip = MprpcConfig::instance().load("rpcserverip");
     uint16_t port = atoi(MprpcConfig::instance().load("rpcserverport").c_str());
-    LOG_INFO("ip: %s port: %d", ip.c_str(), port);
 
-    InetAddress listenAddr(8000, "127.0.0.1");
+    InetAddress listenAddr(port, ip);
     TcpServer server(&loop_, listenAddr, "RpcProvider");
 
     server.setConnectionCallback(std::bind(&RpcProvider::onConnection, this, std::placeholders::_1));
