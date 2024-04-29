@@ -41,7 +41,8 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor *method,
     // 向服务器发送数据后，将返回的数据反序列化给response
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);
     Socket socket(sockfd);
-    InetAddress peerAddr(atoi(MprpcConfig::instance().load("rpcserverport").c_str()), MprpcConfig::instance().load("rpcserverip"));
+    // InetAddress peerAddr(atoi(MprpcConfig::instance().load("rpcserverport").c_str()), MprpcConfig::instance().load("rpcserverip"));
+    InetAddress peerAddr(8000);
     socket.connect(peerAddr);
     int send_len = -1;
     if ((send_len=socket.send((void *)rpc_str.c_str(), rpc_str.size())) == -1)
@@ -58,8 +59,10 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor *method,
         socket.close();
         return;
     }
-    if(!response->ParseFromString(std::string(recv_str, 0, recv_len)))
+    /// fixbug: string写二进制时有\0，字符串读取到时默认停止读取
+    if(!response->ParseFromArray(recv_str, recv_len))
     {
         LOG_ERROR("%s:%d parse response error!", __FILE__, __LINE__);
     }
+    socket.close();
 }

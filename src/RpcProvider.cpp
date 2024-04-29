@@ -23,8 +23,9 @@ void RpcProvider::run()
 {
     std::string ip = MprpcConfig::instance().load("rpcserverip");
     uint16_t port = atoi(MprpcConfig::instance().load("rpcserverport").c_str());
+    LOG_INFO("ip: %s port: %d", ip.c_str(), port);
 
-    InetAddress listenAddr(port, ip);
+    InetAddress listenAddr(8000, "127.0.0.1");
     TcpServer server(&loop_, listenAddr, "RpcProvider");
 
     server.setConnectionCallback(std::bind(&RpcProvider::onConnection, this, std::placeholders::_1));
@@ -63,6 +64,11 @@ void RpcProvider::onMessage(const TcpConnectionPtr &conn, Buffer *buffer, Timest
     uint32_t  arg_size = rpcHeader.arg_size();
     std::string arg_str = recv_str.substr(4+header_size, arg_size); // 获取参数内容
 
+    LOG_INFO("////////////////print/////////////    ////////////////print/////////////");
+    LOG_INFO("service_name:%s  method_name:%s  arg_size:%d  arg_str:%s",
+        service_name.c_str(), method_name.c_str(), arg_size, arg_str.c_str());
+    LOG_INFO("////////////////print/////////////    ////////////////print/////////////");
+    
     // 查找service对象和method描述符是否注册
     auto it = services_.find(service_name);
     auto mit = it->second.methods_.find(method_name);

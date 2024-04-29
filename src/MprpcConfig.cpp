@@ -8,6 +8,7 @@ MprpcConfig &MprpcConfig::instance()
     return app;
 }
 
+/// fixbug：在callee main中init后，在MprpcProvider中无法读取的情况
 void MprpcConfig::loadConfigFile(const char *file)
 {
     std::ifstream configFile(file);

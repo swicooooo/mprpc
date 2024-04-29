@@ -20,11 +20,11 @@ int main(int argc, char *argv[])
 
     if(response.result().errcode() == 0) 
     {
-        LOG_INFO("%s:%d response request success!", __FILE__, __LINE__);
+        LOG_INFO("%s:%d response request success: %d", __FILE__, __LINE__, response.success());
     }
     else
     {
-        LOG_ERROR("%s:%d response request error!", __FILE__, __LINE__);
+        LOG_ERROR("%s:%d response request error: %s", __FILE__, __LINE__, response.result().errmsg().c_str());
     }
     return 0;
 }
