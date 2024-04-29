@@ -7,11 +7,33 @@
 #IncludeRegexTransform: 
 
 ../include/MprpcApplication.h
+MprpcChannel.h
+../include/MprpcChannel.h
+RpcProvider.h
+../include/RpcProvider.h
+MprpcController.h
+../include/MprpcController.h
 string
 -
 
 ../include/MprpcChannel.h
 google/protobuf/service.h
+-
+
+../include/MprpcController.h
+string
+-
+google/protobuf/service.h
+-
+
+../include/RpcProvider.h
+google/protobuf/service.h
+-
+mymuduo/TcpServer.h
+-
+unordered_map
+-
+string
 -
 
 ../include/user.pb.h
@@ -47,8 +69,6 @@ google/protobuf/unknown_field_set.h
 /mnt/e/mprpc/example/caller/caller.cc
 MprpcApplication.h
 /mnt/e/mprpc/example/caller/MprpcApplication.h
-MprpcChannel.h
-/mnt/e/mprpc/example/caller/MprpcChannel.h
 user.pb.h
 /mnt/e/mprpc/example/caller/user.pb.h
 mymuduo/Logger.h

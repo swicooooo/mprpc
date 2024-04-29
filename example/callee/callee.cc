@@ -1,5 +1,4 @@
 #include "MprpcApplication.h"
-#include "RpcProvider.h"
 #include "user.pb.h"
 
 #include <mymuduo/Logger.h>

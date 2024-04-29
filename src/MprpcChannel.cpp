@@ -19,7 +19,7 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor *method,
     std::string arg_str;
     if (!request->SerializeToString(&arg_str))
     {
-        LOG_ERROR("%s:%d serialize request error!", __FILE__, __LINE__);
+        controller->SetFailed("serialize request error!");
         return;
     }
     header::rpcHeader rpcHeader;
@@ -30,7 +30,7 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor *method,
     std::string header_str;
     if (!rpcHeader.SerializeToString(&header_str))
     {
-        LOG_ERROR("%s:%d serialize header_str error!", __FILE__, __LINE__);
+        controller->SetFailed("serialize header_str error!");
         return;
     }
     uint32_t header_size = header_str.size();
@@ -46,7 +46,7 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor *method,
     int send_len = -1;
     if ((send_len=socket.send((void *)rpc_str.c_str(), rpc_str.size())) == -1)
     {
-        LOG_ERROR("%s:%d socket send error!", __FILE__, __LINE__);
+        controller->SetFailed("socket send error!");
         socket.close();
         return;
     }
@@ -54,14 +54,14 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor *method,
     int recv_len = -1;
     if ((recv_len=socket.recv(recv_str, 1024)) == -1)
     {
-        LOG_ERROR("%s:%d socket recv error!", __FILE__, __LINE__);
+        controller->SetFailed("socket recv error!");
         socket.close();
         return;
     }
     /// fixbug: string写二进制时有\0，字符串读取到时默认停止读取
     if(!response->ParseFromArray(recv_str, recv_len))
     {
-        LOG_ERROR("%s:%d parse response error!", __FILE__, __LINE__);
+        controller->SetFailed("parse response error!");
     }
     socket.close();
 }

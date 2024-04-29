@@ -8,6 +8,8 @@ example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.o: ../include/user.pb.
 example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.o: ../src/user.pb.cc
 
 example/callee/CMakeFiles/callee.dir/callee.cc.o: ../include/MprpcApplication.h
+example/callee/CMakeFiles/callee.dir/callee.cc.o: ../include/MprpcChannel.h
+example/callee/CMakeFiles/callee.dir/callee.cc.o: ../include/MprpcController.h
 example/callee/CMakeFiles/callee.dir/callee.cc.o: ../include/RpcProvider.h
 example/callee/CMakeFiles/callee.dir/callee.cc.o: ../include/user.pb.h
 example/callee/CMakeFiles/callee.dir/callee.cc.o: ../example/callee/callee.cc

@@ -1,5 +1,8 @@
 #pragma once
 
+#include "MprpcChannel.h"
+#include "RpcProvider.h"
+#include "MprpcController.h"
 #include <string>
 
 /// @brief mprpc框架的基础类，负责初始化框架

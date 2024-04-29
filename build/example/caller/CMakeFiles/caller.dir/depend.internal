@@ -10,5 +10,7 @@ example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.o
 example/caller/CMakeFiles/caller.dir/caller.cc.o
  ../include/MprpcApplication.h
  ../include/MprpcChannel.h
+ ../include/MprpcController.h
+ ../include/RpcProvider.h
  ../include/user.pb.h
  /mnt/e/mprpc/example/caller/caller.cc

@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../include/MpRpcController.h
+string
+-
+google/protobuf/service.h
+-
+
+../include/MprpcApplication.h
+MprpcChannel.h
+../include/MprpcChannel.h
+RpcProvider.h
+../include/RpcProvider.h
+MprpcController.h
+../include/MprpcController.h
+string
+-
+
 ../include/MprpcChannel.h
 google/protobuf/service.h
 -
@@ -14,6 +30,12 @@ google/protobuf/service.h
 unordered_map
 -
 string
+-
+
+../include/MprpcController.h
+string
+-
+google/protobuf/service.h
 -
 
 ../include/RpcProvider.h
@@ -54,6 +76,20 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 
+/mnt/e/mprpc/src/MpRpcController.cpp
+MpRpcController.h
+/mnt/e/mprpc/src/MpRpcController.h
+
+/mnt/e/mprpc/src/MprpcApplication.cpp
+MprpcApplication.h
+/mnt/e/mprpc/src/MprpcApplication.h
+MprpcConfig.h
+/mnt/e/mprpc/src/MprpcConfig.h
+unistd.h
+-
+mymuduo/Logger.h
+-
+
 /mnt/e/mprpc/src/MprpcChannel.cpp
 MprpcChannel.h
 /mnt/e/mprpc/src/MprpcChannel.h
@@ -68,17 +104,5 @@ mymuduo/Logger.h
 mymuduo/Socket.h
 -
 mymuduo/InetAddress.h
--
-
-/mnt/e/mprpc/src/RpcProvider.cpp
-RpcProvider.h
-/mnt/e/mprpc/src/RpcProvider.h
-MprpcConfig.h
-/mnt/e/mprpc/src/MprpcConfig.h
-header.pb.h
-/mnt/e/mprpc/src/header.pb.h
-google/protobuf/descriptor.h
--
-mymuduo/Logger.h
 -
 

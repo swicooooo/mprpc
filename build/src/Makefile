@@ -125,6 +125,33 @@ mprpc/fast:
 	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
 .PHONY : mprpc/fast
 
+MpRpcController.o: MpRpcController.cpp.o
+
+.PHONY : MpRpcController.o
+
+# target to build an object file
+MpRpcController.cpp.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcController.cpp.o
+.PHONY : MpRpcController.cpp.o
+
+MpRpcController.i: MpRpcController.cpp.i
+
+.PHONY : MpRpcController.i
+
+# target to preprocess a source file
+MpRpcController.cpp.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcController.cpp.i
+.PHONY : MpRpcController.cpp.i
+
+MpRpcController.s: MpRpcController.cpp.s
+
+.PHONY : MpRpcController.s
+
+# target to generate assembly for a file
+MpRpcController.cpp.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcController.cpp.s
+.PHONY : MpRpcController.cpp.s
+
 MprpcApplication.o: MprpcApplication.cpp.o
 
 .PHONY : MprpcApplication.o
@@ -296,6 +323,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... mprpc"
+	@echo "... MpRpcController.o"
+	@echo "... MpRpcController.i"
+	@echo "... MpRpcController.s"
 	@echo "... MprpcApplication.o"
 	@echo "... MprpcApplication.i"
 	@echo "... MprpcApplication.s"

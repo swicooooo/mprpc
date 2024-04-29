@@ -1,5 +1,4 @@
 #include "MprpcApplication.h"
-#include "MprpcChannel.h"
 #include "user.pb.h"
 
 #include <mymuduo/Logger.h>
@@ -14,7 +13,15 @@ int main(int argc, char *argv[])
     request.set_pwd("0");
 
     user::LoginResponse response;
-    stub.Login(nullptr, &request, &response, nullptr);
+    MprpcController controller;
+    stub.Login(&controller, &request, &response, nullptr);
+
+    // 在执行stub Login时出错
+    if(controller.Failed())
+    {
+        LOG_INFO("%s:%d controller error: %s", __FILE__, __LINE__, controller.ErrorText().c_str());
+        return -1;
+    }
 
     if(response.result().errcode() == 0) 
     {

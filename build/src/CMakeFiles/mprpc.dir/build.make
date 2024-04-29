@@ -57,9 +57,22 @@ include src/CMakeFiles/mprpc.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/mprpc.dir/flags.make
 
+src/CMakeFiles/mprpc.dir/MpRpcController.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/MpRpcController.cpp.o: ../src/MpRpcController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mprpc.dir/MpRpcController.cpp.o"
+	cd /mnt/e/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/MpRpcController.cpp.o -c /mnt/e/mprpc/src/MpRpcController.cpp
+
+src/CMakeFiles/mprpc.dir/MpRpcController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/MpRpcController.cpp.i"
+	cd /mnt/e/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/MpRpcController.cpp > CMakeFiles/mprpc.dir/MpRpcController.cpp.i
+
+src/CMakeFiles/mprpc.dir/MpRpcController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/MpRpcController.cpp.s"
+	cd /mnt/e/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/MpRpcController.cpp -o CMakeFiles/mprpc.dir/MpRpcController.cpp.s
+
 src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.o: ../src/MprpcApplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.o"
 	cd /mnt/e/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/MprpcApplication.cpp.o -c /mnt/e/mprpc/src/MprpcApplication.cpp
 
 src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.i: cmake_force
@@ -72,7 +85,7 @@ src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.s: cmake_force
 
 src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o: ../src/MprpcChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o"
 	cd /mnt/e/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/MprpcChannel.cpp.o -c /mnt/e/mprpc/src/MprpcChannel.cpp
 
 src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.i: cmake_force
@@ -85,7 +98,7 @@ src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.s: cmake_force
 
 src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o: ../src/MprpcConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o"
 	cd /mnt/e/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/MprpcConfig.cpp.o -c /mnt/e/mprpc/src/MprpcConfig.cpp
 
 src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.i: cmake_force
@@ -98,7 +111,7 @@ src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.s: cmake_force
 
 src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o: ../src/RpcProvider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o"
 	cd /mnt/e/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/RpcProvider.cpp.o -c /mnt/e/mprpc/src/RpcProvider.cpp
 
 src/CMakeFiles/mprpc.dir/RpcProvider.cpp.i: cmake_force
@@ -111,7 +124,7 @@ src/CMakeFiles/mprpc.dir/RpcProvider.cpp.s: cmake_force
 
 src/CMakeFiles/mprpc.dir/user.pb.cc.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/user.pb.cc.o: ../src/user.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/mprpc.dir/user.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mprpc.dir/user.pb.cc.o"
 	cd /mnt/e/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/user.pb.cc.o -c /mnt/e/mprpc/src/user.pb.cc
 
 src/CMakeFiles/mprpc.dir/user.pb.cc.i: cmake_force
@@ -124,7 +137,7 @@ src/CMakeFiles/mprpc.dir/user.pb.cc.s: cmake_force
 
 src/CMakeFiles/mprpc.dir/header.pb.cc.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/header.pb.cc.o: ../src/header.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mprpc.dir/header.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/mprpc.dir/header.pb.cc.o"
 	cd /mnt/e/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/header.pb.cc.o -c /mnt/e/mprpc/src/header.pb.cc
 
 src/CMakeFiles/mprpc.dir/header.pb.cc.i: cmake_force
@@ -137,6 +150,7 @@ src/CMakeFiles/mprpc.dir/header.pb.cc.s: cmake_force
 
 # Object files for target mprpc
 mprpc_OBJECTS = \
+"CMakeFiles/mprpc.dir/MpRpcController.cpp.o" \
 "CMakeFiles/mprpc.dir/MprpcApplication.cpp.o" \
 "CMakeFiles/mprpc.dir/MprpcChannel.cpp.o" \
 "CMakeFiles/mprpc.dir/MprpcConfig.cpp.o" \
@@ -147,6 +161,7 @@ mprpc_OBJECTS = \
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
 
+../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/MpRpcController.cpp.o
 ../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.o
 ../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o
 ../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o
@@ -155,7 +170,7 @@ mprpc_EXTERNAL_OBJECTS =
 ../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/header.pb.cc.o
 ../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/build.make
 ../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library ../../lib/libmprpc.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library ../../lib/libmprpc.so"
 	cd /mnt/e/mprpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
