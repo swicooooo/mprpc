@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "../../../bin/callee"
   "../../../bin/callee.pdb"
   "CMakeFiles/callee.dir/__/__/src/header.pb.cc.o"
-  "CMakeFiles/callee.dir/__/__/src/user.pb.cc.o"
+  "CMakeFiles/callee.dir/__/user.pb.cc.o"
   "CMakeFiles/callee.dir/callee.cc.o"
 )
 

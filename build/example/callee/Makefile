@@ -152,32 +152,32 @@ __/__/src/header.pb.cc.s:
 	cd /mnt/e/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/callee.dir/build.make example/callee/CMakeFiles/callee.dir/__/__/src/header.pb.cc.s
 .PHONY : __/__/src/header.pb.cc.s
 
-__/__/src/user.pb.o: __/__/src/user.pb.cc.o
+__/user.pb.o: __/user.pb.cc.o
 
-.PHONY : __/__/src/user.pb.o
+.PHONY : __/user.pb.o
 
 # target to build an object file
-__/__/src/user.pb.cc.o:
-	cd /mnt/e/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/callee.dir/build.make example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.o
-.PHONY : __/__/src/user.pb.cc.o
+__/user.pb.cc.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/callee.dir/build.make example/callee/CMakeFiles/callee.dir/__/user.pb.cc.o
+.PHONY : __/user.pb.cc.o
 
-__/__/src/user.pb.i: __/__/src/user.pb.cc.i
+__/user.pb.i: __/user.pb.cc.i
 
-.PHONY : __/__/src/user.pb.i
+.PHONY : __/user.pb.i
 
 # target to preprocess a source file
-__/__/src/user.pb.cc.i:
-	cd /mnt/e/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/callee.dir/build.make example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.i
-.PHONY : __/__/src/user.pb.cc.i
+__/user.pb.cc.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/callee.dir/build.make example/callee/CMakeFiles/callee.dir/__/user.pb.cc.i
+.PHONY : __/user.pb.cc.i
 
-__/__/src/user.pb.s: __/__/src/user.pb.cc.s
+__/user.pb.s: __/user.pb.cc.s
 
-.PHONY : __/__/src/user.pb.s
+.PHONY : __/user.pb.s
 
 # target to generate assembly for a file
-__/__/src/user.pb.cc.s:
-	cd /mnt/e/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/callee.dir/build.make example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.s
-.PHONY : __/__/src/user.pb.cc.s
+__/user.pb.cc.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/callee.dir/build.make example/callee/CMakeFiles/callee.dir/__/user.pb.cc.s
+.PHONY : __/user.pb.cc.s
 
 callee.o: callee.cc.o
 
@@ -218,9 +218,9 @@ help:
 	@echo "... __/__/src/header.pb.o"
 	@echo "... __/__/src/header.pb.i"
 	@echo "... __/__/src/header.pb.s"
-	@echo "... __/__/src/user.pb.o"
-	@echo "... __/__/src/user.pb.i"
-	@echo "... __/__/src/user.pb.s"
+	@echo "... __/user.pb.o"
+	@echo "... __/user.pb.i"
+	@echo "... __/user.pb.s"
 	@echo "... callee.o"
 	@echo "... callee.i"
 	@echo "... callee.s"

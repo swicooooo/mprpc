@@ -4,13 +4,13 @@
 example/caller/CMakeFiles/caller.dir/__/__/src/header.pb.cc.o: ../include/header.pb.h
 example/caller/CMakeFiles/caller.dir/__/__/src/header.pb.cc.o: ../src/header.pb.cc
 
-example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.o: ../include/user.pb.h
-example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.o: ../src/user.pb.cc
+example/caller/CMakeFiles/caller.dir/__/user.pb.cc.o: ../example/user.pb.cc
+example/caller/CMakeFiles/caller.dir/__/user.pb.cc.o: ../example/user.pb.h
 
+example/caller/CMakeFiles/caller.dir/caller.cc.o: ../example/user.pb.h
 example/caller/CMakeFiles/caller.dir/caller.cc.o: ../include/MprpcApplication.h
 example/caller/CMakeFiles/caller.dir/caller.cc.o: ../include/MprpcChannel.h
 example/caller/CMakeFiles/caller.dir/caller.cc.o: ../include/MprpcController.h
 example/caller/CMakeFiles/caller.dir/caller.cc.o: ../include/RpcProvider.h
-example/caller/CMakeFiles/caller.dir/caller.cc.o: ../include/user.pb.h
 example/caller/CMakeFiles/caller.dir/caller.cc.o: ../example/caller/caller.cc
 

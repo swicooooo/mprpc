@@ -76,7 +76,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -102,21 +102,21 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "callee::@493cd8b262c97a98b12b",
-					"jsonFile" : "target-callee-Debug-acd6ea0ccfb2c4eff95a.json",
+					"jsonFile" : "target-callee-c8b9883169ba021cd7fd.json",
 					"name" : "callee",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "caller::@c2a3416f73e845390d82",
-					"jsonFile" : "target-caller-Debug-0577be8b3e135e005d2f.json",
+					"jsonFile" : "target-caller-92028cdfdaa21169bfb2.json",
 					"name" : "caller",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "mprpc::@145eef247bfb46b6828c",
-					"jsonFile" : "target-mprpc-Debug-ce3ed9ab616a449fdc92.json",
+					"jsonFile" : "target-mprpc-96e243385868bc8795c6.json",
 					"name" : "mprpc",
 					"projectIndex" : 0
 				}

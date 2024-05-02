@@ -60,53 +60,53 @@ include example/caller/CMakeFiles/caller.dir/flags.make
 example/caller/CMakeFiles/caller.dir/caller.cc.o: example/caller/CMakeFiles/caller.dir/flags.make
 example/caller/CMakeFiles/caller.dir/caller.cc.o: ../example/caller/caller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/caller.dir/caller.cc.o"
-	cd /mnt/e/mprpc/build/example/caller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caller.dir/caller.cc.o -c /mnt/e/mprpc/example/caller/caller.cc
+	cd /mnt/e/mprpc/build/example/caller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caller.dir/caller.cc.o -c /mnt/e/mprpc/example/caller/caller.cc
 
 example/caller/CMakeFiles/caller.dir/caller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caller.dir/caller.cc.i"
-	cd /mnt/e/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/example/caller/caller.cc > CMakeFiles/caller.dir/caller.cc.i
+	cd /mnt/e/mprpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/example/caller/caller.cc > CMakeFiles/caller.dir/caller.cc.i
 
 example/caller/CMakeFiles/caller.dir/caller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caller.dir/caller.cc.s"
-	cd /mnt/e/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/example/caller/caller.cc -o CMakeFiles/caller.dir/caller.cc.s
+	cd /mnt/e/mprpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/example/caller/caller.cc -o CMakeFiles/caller.dir/caller.cc.s
 
-example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.o: example/caller/CMakeFiles/caller.dir/flags.make
-example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.o: ../src/user.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.o"
-	cd /mnt/e/mprpc/build/example/caller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caller.dir/__/__/src/user.pb.cc.o -c /mnt/e/mprpc/src/user.pb.cc
+example/caller/CMakeFiles/caller.dir/__/user.pb.cc.o: example/caller/CMakeFiles/caller.dir/flags.make
+example/caller/CMakeFiles/caller.dir/__/user.pb.cc.o: ../example/user.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/caller.dir/__/user.pb.cc.o"
+	cd /mnt/e/mprpc/build/example/caller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caller.dir/__/user.pb.cc.o -c /mnt/e/mprpc/example/user.pb.cc
 
-example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caller.dir/__/__/src/user.pb.cc.i"
-	cd /mnt/e/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/user.pb.cc > CMakeFiles/caller.dir/__/__/src/user.pb.cc.i
+example/caller/CMakeFiles/caller.dir/__/user.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caller.dir/__/user.pb.cc.i"
+	cd /mnt/e/mprpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/example/user.pb.cc > CMakeFiles/caller.dir/__/user.pb.cc.i
 
-example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caller.dir/__/__/src/user.pb.cc.s"
-	cd /mnt/e/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/user.pb.cc -o CMakeFiles/caller.dir/__/__/src/user.pb.cc.s
+example/caller/CMakeFiles/caller.dir/__/user.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caller.dir/__/user.pb.cc.s"
+	cd /mnt/e/mprpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/example/user.pb.cc -o CMakeFiles/caller.dir/__/user.pb.cc.s
 
 example/caller/CMakeFiles/caller.dir/__/__/src/header.pb.cc.o: example/caller/CMakeFiles/caller.dir/flags.make
 example/caller/CMakeFiles/caller.dir/__/__/src/header.pb.cc.o: ../src/header.pb.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object example/caller/CMakeFiles/caller.dir/__/__/src/header.pb.cc.o"
-	cd /mnt/e/mprpc/build/example/caller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caller.dir/__/__/src/header.pb.cc.o -c /mnt/e/mprpc/src/header.pb.cc
+	cd /mnt/e/mprpc/build/example/caller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caller.dir/__/__/src/header.pb.cc.o -c /mnt/e/mprpc/src/header.pb.cc
 
 example/caller/CMakeFiles/caller.dir/__/__/src/header.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caller.dir/__/__/src/header.pb.cc.i"
-	cd /mnt/e/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/header.pb.cc > CMakeFiles/caller.dir/__/__/src/header.pb.cc.i
+	cd /mnt/e/mprpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/header.pb.cc > CMakeFiles/caller.dir/__/__/src/header.pb.cc.i
 
 example/caller/CMakeFiles/caller.dir/__/__/src/header.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caller.dir/__/__/src/header.pb.cc.s"
-	cd /mnt/e/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/header.pb.cc -o CMakeFiles/caller.dir/__/__/src/header.pb.cc.s
+	cd /mnt/e/mprpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/header.pb.cc -o CMakeFiles/caller.dir/__/__/src/header.pb.cc.s
 
 # Object files for target caller
 caller_OBJECTS = \
 "CMakeFiles/caller.dir/caller.cc.o" \
-"CMakeFiles/caller.dir/__/__/src/user.pb.cc.o" \
+"CMakeFiles/caller.dir/__/user.pb.cc.o" \
 "CMakeFiles/caller.dir/__/__/src/header.pb.cc.o"
 
 # External object files for target caller
 caller_EXTERNAL_OBJECTS =
 
 ../bin/caller: example/caller/CMakeFiles/caller.dir/caller.cc.o
-../bin/caller: example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.o
+../bin/caller: example/caller/CMakeFiles/caller.dir/__/user.pb.cc.o
 ../bin/caller: example/caller/CMakeFiles/caller.dir/__/__/src/header.pb.cc.o
 ../bin/caller: example/caller/CMakeFiles/caller.dir/build.make
 ../bin/caller: ../lib/libmprpc.so

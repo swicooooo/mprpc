@@ -1,1 +1,1 @@
-/usr/bin/g++  -g -g   CMakeFiles/callee.dir/callee.cc.o CMakeFiles/callee.dir/__/__/src/user.pb.cc.o CMakeFiles/callee.dir/__/__/src/header.pb.cc.o  -o ../../../bin/callee  -Wl,-rpath,/mnt/e/mprpc/lib ../../../lib/libmprpc.so -lprotobuf -lmymuduo -lpthread 
+/usr/bin/c++  -g   CMakeFiles/callee.dir/callee.cc.o CMakeFiles/callee.dir/__/user.pb.cc.o CMakeFiles/callee.dir/__/__/src/header.pb.cc.o  -o ../../../bin/callee  -Wl,-rpath,/mnt/e/mprpc/lib ../../../lib/libmprpc.so -lprotobuf -lmymuduo -lpthread 

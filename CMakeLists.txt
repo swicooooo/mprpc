@@ -7,6 +7,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)   # 设置可执行文件�
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)      # 设置库文件输出路径
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${PROJECT_SOURCE_DIR}/example)
 
 add_subdirectory(./src)
 # add_subdirectory(./test)

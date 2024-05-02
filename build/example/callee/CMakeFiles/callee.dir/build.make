@@ -60,53 +60,53 @@ include example/callee/CMakeFiles/callee.dir/flags.make
 example/callee/CMakeFiles/callee.dir/callee.cc.o: example/callee/CMakeFiles/callee.dir/flags.make
 example/callee/CMakeFiles/callee.dir/callee.cc.o: ../example/callee/callee.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/callee/CMakeFiles/callee.dir/callee.cc.o"
-	cd /mnt/e/mprpc/build/example/callee && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/callee.dir/callee.cc.o -c /mnt/e/mprpc/example/callee/callee.cc
+	cd /mnt/e/mprpc/build/example/callee && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/callee.dir/callee.cc.o -c /mnt/e/mprpc/example/callee/callee.cc
 
 example/callee/CMakeFiles/callee.dir/callee.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/callee.dir/callee.cc.i"
-	cd /mnt/e/mprpc/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/example/callee/callee.cc > CMakeFiles/callee.dir/callee.cc.i
+	cd /mnt/e/mprpc/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/example/callee/callee.cc > CMakeFiles/callee.dir/callee.cc.i
 
 example/callee/CMakeFiles/callee.dir/callee.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/callee.dir/callee.cc.s"
-	cd /mnt/e/mprpc/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/example/callee/callee.cc -o CMakeFiles/callee.dir/callee.cc.s
+	cd /mnt/e/mprpc/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/example/callee/callee.cc -o CMakeFiles/callee.dir/callee.cc.s
 
-example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.o: example/callee/CMakeFiles/callee.dir/flags.make
-example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.o: ../src/user.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.o"
-	cd /mnt/e/mprpc/build/example/callee && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/callee.dir/__/__/src/user.pb.cc.o -c /mnt/e/mprpc/src/user.pb.cc
+example/callee/CMakeFiles/callee.dir/__/user.pb.cc.o: example/callee/CMakeFiles/callee.dir/flags.make
+example/callee/CMakeFiles/callee.dir/__/user.pb.cc.o: ../example/user.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/callee/CMakeFiles/callee.dir/__/user.pb.cc.o"
+	cd /mnt/e/mprpc/build/example/callee && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/callee.dir/__/user.pb.cc.o -c /mnt/e/mprpc/example/user.pb.cc
 
-example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/callee.dir/__/__/src/user.pb.cc.i"
-	cd /mnt/e/mprpc/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/user.pb.cc > CMakeFiles/callee.dir/__/__/src/user.pb.cc.i
+example/callee/CMakeFiles/callee.dir/__/user.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/callee.dir/__/user.pb.cc.i"
+	cd /mnt/e/mprpc/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/example/user.pb.cc > CMakeFiles/callee.dir/__/user.pb.cc.i
 
-example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/callee.dir/__/__/src/user.pb.cc.s"
-	cd /mnt/e/mprpc/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/user.pb.cc -o CMakeFiles/callee.dir/__/__/src/user.pb.cc.s
+example/callee/CMakeFiles/callee.dir/__/user.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/callee.dir/__/user.pb.cc.s"
+	cd /mnt/e/mprpc/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/example/user.pb.cc -o CMakeFiles/callee.dir/__/user.pb.cc.s
 
 example/callee/CMakeFiles/callee.dir/__/__/src/header.pb.cc.o: example/callee/CMakeFiles/callee.dir/flags.make
 example/callee/CMakeFiles/callee.dir/__/__/src/header.pb.cc.o: ../src/header.pb.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object example/callee/CMakeFiles/callee.dir/__/__/src/header.pb.cc.o"
-	cd /mnt/e/mprpc/build/example/callee && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/callee.dir/__/__/src/header.pb.cc.o -c /mnt/e/mprpc/src/header.pb.cc
+	cd /mnt/e/mprpc/build/example/callee && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/callee.dir/__/__/src/header.pb.cc.o -c /mnt/e/mprpc/src/header.pb.cc
 
 example/callee/CMakeFiles/callee.dir/__/__/src/header.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/callee.dir/__/__/src/header.pb.cc.i"
-	cd /mnt/e/mprpc/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/header.pb.cc > CMakeFiles/callee.dir/__/__/src/header.pb.cc.i
+	cd /mnt/e/mprpc/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/mprpc/src/header.pb.cc > CMakeFiles/callee.dir/__/__/src/header.pb.cc.i
 
 example/callee/CMakeFiles/callee.dir/__/__/src/header.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/callee.dir/__/__/src/header.pb.cc.s"
-	cd /mnt/e/mprpc/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/header.pb.cc -o CMakeFiles/callee.dir/__/__/src/header.pb.cc.s
+	cd /mnt/e/mprpc/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/mprpc/src/header.pb.cc -o CMakeFiles/callee.dir/__/__/src/header.pb.cc.s
 
 # Object files for target callee
 callee_OBJECTS = \
 "CMakeFiles/callee.dir/callee.cc.o" \
-"CMakeFiles/callee.dir/__/__/src/user.pb.cc.o" \
+"CMakeFiles/callee.dir/__/user.pb.cc.o" \
 "CMakeFiles/callee.dir/__/__/src/header.pb.cc.o"
 
 # External object files for target callee
 callee_EXTERNAL_OBJECTS =
 
 ../bin/callee: example/callee/CMakeFiles/callee.dir/callee.cc.o
-../bin/callee: example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.o
+../bin/callee: example/callee/CMakeFiles/callee.dir/__/user.pb.cc.o
 ../bin/callee: example/callee/CMakeFiles/callee.dir/__/__/src/header.pb.cc.o
 ../bin/callee: example/callee/CMakeFiles/callee.dir/build.make
 ../bin/callee: ../lib/libmprpc.so

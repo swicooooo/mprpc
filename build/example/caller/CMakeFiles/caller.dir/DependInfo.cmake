@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/e/mprpc/src/header.pb.cc" "/mnt/e/mprpc/build/example/caller/CMakeFiles/caller.dir/__/__/src/header.pb.cc.o"
-  "/mnt/e/mprpc/src/user.pb.cc" "/mnt/e/mprpc/build/example/caller/CMakeFiles/caller.dir/__/__/src/user.pb.cc.o"
+  "/mnt/e/mprpc/example/user.pb.cc" "/mnt/e/mprpc/build/example/caller/CMakeFiles/caller.dir/__/user.pb.cc.o"
   "/mnt/e/mprpc/example/caller/caller.cc" "/mnt/e/mprpc/build/example/caller/CMakeFiles/caller.dir/caller.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -13,6 +13,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "../example"
   )
 
 # Targets to which this target links.

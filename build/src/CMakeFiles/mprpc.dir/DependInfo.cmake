@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/e/mprpc/src/RpcProvider.cpp" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o"
   "/mnt/e/mprpc/src/Zookeeper.cpp" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/Zookeeper.cpp.o"
   "/mnt/e/mprpc/src/header.pb.cc" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/header.pb.cc.o"
-  "/mnt/e/mprpc/src/user.pb.cc" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/user.pb.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,6 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "../example"
   )
 
 # Targets to which this target links.

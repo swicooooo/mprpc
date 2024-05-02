@@ -13,6 +13,7 @@ src/CMakeFiles/mprpc.dir/MprpcApplication.cpp.o: ../src/MprpcApplication.cpp
 
 src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o: ../include/MprpcChannel.h
 src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o: ../include/MprpcConfig.h
+src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o: ../include/Zookeeper.h
 src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o: ../include/header.pb.h
 src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o: ../src/MprpcChannel.cpp
 
@@ -21,6 +22,7 @@ src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o: ../src/MprpcConfig.cpp
 
 src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o: ../include/MprpcConfig.h
 src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o: ../include/RpcProvider.h
+src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o: ../include/Zookeeper.h
 src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o: ../include/header.pb.h
 src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o: ../src/RpcProvider.cpp
 
@@ -30,7 +32,4 @@ src/CMakeFiles/mprpc.dir/Zookeeper.cpp.o: ../src/Zookeeper.cpp
 
 src/CMakeFiles/mprpc.dir/header.pb.cc.o: ../include/header.pb.h
 src/CMakeFiles/mprpc.dir/header.pb.cc.o: ../src/header.pb.cc
-
-src/CMakeFiles/mprpc.dir/user.pb.cc.o: ../include/user.pb.h
-src/CMakeFiles/mprpc.dir/user.pb.cc.o: ../src/user.pb.cc
 

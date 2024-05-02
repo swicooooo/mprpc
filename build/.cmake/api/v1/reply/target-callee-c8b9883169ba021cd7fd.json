@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/mnt/e/mprpc/bin/caller"
+			"path" : "/mnt/e/mprpc/bin/callee"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		],
 		"files" : 
 		[
-			"example/caller/CMakeLists.txt",
+			"example/callee/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -44,6 +44,12 @@
 				"file" : 1,
 				"line" : 9,
 				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 3
 			}
 		]
 	},
@@ -53,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -g  "
+					"fragment" : "-g  "
 				}
 			],
 			"includes" : 
@@ -61,6 +67,10 @@
 				{
 					"backtrace" : 4,
 					"path" : "/mnt/e/mprpc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/mnt/e/mprpc/example"
 				}
 			],
 			"language" : "CXX",
@@ -79,13 +89,13 @@
 			"id" : "mprpc::@145eef247bfb46b6828c"
 		}
 	],
-	"id" : "caller::@c2a3416f73e845390d82",
+	"id" : "callee::@493cd8b262c97a98b12b",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g -g",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -115,12 +125,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "caller",
-	"nameOnDisk" : "caller",
+	"name" : "callee",
+	"nameOnDisk" : "callee",
 	"paths" : 
 	{
-		"build" : "example/caller",
-		"source" : "example/caller"
+		"build" : "example/callee",
+		"source" : "example/callee"
 	},
 	"sourceGroups" : 
 	[
@@ -139,13 +149,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "example/caller/caller.cc",
+			"path" : "example/callee/callee.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/user.pb.cc",
+			"path" : "example/user.pb.cc",
 			"sourceGroupIndex" : 0
 		},
 		{

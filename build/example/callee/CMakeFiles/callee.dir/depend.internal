@@ -4,13 +4,13 @@
 example/callee/CMakeFiles/callee.dir/__/__/src/header.pb.cc.o
  ../include/header.pb.h
  /mnt/e/mprpc/src/header.pb.cc
-example/callee/CMakeFiles/callee.dir/__/__/src/user.pb.cc.o
- ../include/user.pb.h
- /mnt/e/mprpc/src/user.pb.cc
+example/callee/CMakeFiles/callee.dir/__/user.pb.cc.o
+ /mnt/e/mprpc/example/user.pb.cc
+ /mnt/e/mprpc/example/user.pb.h
 example/callee/CMakeFiles/callee.dir/callee.cc.o
+ ../example/user.pb.h
  ../include/MprpcApplication.h
  ../include/MprpcChannel.h
  ../include/MprpcController.h
  ../include/RpcProvider.h
- ../include/user.pb.h
  /mnt/e/mprpc/example/callee/callee.cc
