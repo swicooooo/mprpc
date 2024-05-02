@@ -260,6 +260,33 @@ RpcProvider.cpp.s:
 	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcProvider.cpp.s
 .PHONY : RpcProvider.cpp.s
 
+Zookeeper.o: Zookeeper.cpp.o
+
+.PHONY : Zookeeper.o
+
+# target to build an object file
+Zookeeper.cpp.o:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/Zookeeper.cpp.o
+.PHONY : Zookeeper.cpp.o
+
+Zookeeper.i: Zookeeper.cpp.i
+
+.PHONY : Zookeeper.i
+
+# target to preprocess a source file
+Zookeeper.cpp.i:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/Zookeeper.cpp.i
+.PHONY : Zookeeper.cpp.i
+
+Zookeeper.s: Zookeeper.cpp.s
+
+.PHONY : Zookeeper.s
+
+# target to generate assembly for a file
+Zookeeper.cpp.s:
+	cd /mnt/e/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/Zookeeper.cpp.s
+.PHONY : Zookeeper.cpp.s
+
 header.pb.o: header.pb.cc.o
 
 .PHONY : header.pb.o
@@ -338,6 +365,9 @@ help:
 	@echo "... RpcProvider.o"
 	@echo "... RpcProvider.i"
 	@echo "... RpcProvider.s"
+	@echo "... Zookeeper.o"
+	@echo "... Zookeeper.i"
+	@echo "... Zookeeper.s"
 	@echo "... header.pb.o"
 	@echo "... header.pb.i"
 	@echo "... header.pb.s"

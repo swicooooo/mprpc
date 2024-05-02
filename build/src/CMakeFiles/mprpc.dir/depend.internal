@@ -24,6 +24,10 @@ src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o
  ../include/RpcProvider.h
  ../include/header.pb.h
  /mnt/e/mprpc/src/RpcProvider.cpp
+src/CMakeFiles/mprpc.dir/Zookeeper.cpp.o
+ ../include/MprpcConfig.h
+ ../include/Zookeeper.h
+ /mnt/e/mprpc/src/Zookeeper.cpp
 src/CMakeFiles/mprpc.dir/header.pb.cc.o
  ../include/header.pb.h
  /mnt/e/mprpc/src/header.pb.cc

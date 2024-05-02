@@ -1,6 +1,7 @@
 #include "RpcProvider.h"
 #include "MprpcConfig.h"
 #include "header.pb.h"
+#include "Zookeeper.h"
 
 #include <google/protobuf/descriptor.h>
 #include <mymuduo/Logger.h>
@@ -30,6 +31,23 @@ void RpcProvider::run()
     server.setConnectionCallback(std::bind(&RpcProvider::onConnection, this, std::placeholders::_1));
     server.setMessageCallback(std::bind(&RpcProvider::onMessage, this, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3));
     server.setThreadNum(4);
+
+    // 将rpc节点服务和方法注册到zk上, /service_name/method_name ip:port
+    ZkClient zkCli;
+    zkCli.start();
+    for(auto &service: services_)
+    {
+        std::string service_path = "/" + service.first;
+        zkCli.create(service_path.c_str(), nullptr, 0);
+        for(auto &method: service.second.methods_)
+        {
+            std::string method_path = service_path + "/" + method.first;
+            char host[128] = {0};
+            sprintf(host, "%s:%d", ip.c_str(), port);
+            zkCli.create(method_path.c_str(), host, strlen(host), ZOO_EPHEMERAL); // 临时性节点
+        }
+    }
+
     server.start();
     loop_.loop();
 }

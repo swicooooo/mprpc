@@ -26,6 +26,11 @@
 },
 {
   "directory": "/mnt/e/mprpc/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/mnt/e/mprpc/include  -g -g -fPIC   -o CMakeFiles/mprpc.dir/Zookeeper.cpp.o -c /mnt/e/mprpc/src/Zookeeper.cpp",
+  "file": "/mnt/e/mprpc/src/Zookeeper.cpp"
+},
+{
+  "directory": "/mnt/e/mprpc/build/src",
   "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/mnt/e/mprpc/include  -g -g -fPIC   -o CMakeFiles/mprpc.dir/user.pb.cc.o -c /mnt/e/mprpc/src/user.pb.cc",
   "file": "/mnt/e/mprpc/src/user.pb.cc"
 },

@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -g   CMakeFiles/test.dir/Zookeeper.cpp.o CMakeFiles/test.dir/test.cpp.o  -o ../../bin/test  -lmymuduo -lpthread -lprotobuf -lzookeeper_mt 

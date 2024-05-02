@@ -12,27 +12,25 @@ unordered_map
 string
 -
 
-../include/Zookeeper.h
+/mnt/e/mprpc/test/Zookeeper.cpp
+Zookeeper.h
+/mnt/e/mprpc/test/Zookeeper.h
+MprpcConfig.h
+/mnt/e/mprpc/test/MprpcConfig.h
+mymuduo/Logger.h
+-
+semaphore.h
+-
+
+/mnt/e/mprpc/test/Zookeeper.h
 zookeeper/zookeeper.h
 -
 string
 -
 
-/mnt/e/mprpc/src/MprpcConfig.cpp
-MprpcConfig.h
-/mnt/e/mprpc/src/MprpcConfig.h
-fstream
+/mnt/e/mprpc/test/test.cpp
+iostream
 -
-
-/mnt/e/mprpc/src/Zookeeper.cpp
 Zookeeper.h
-/mnt/e/mprpc/src/Zookeeper.h
-MprpcConfig.h
-/mnt/e/mprpc/src/MprpcConfig.h
-mymuduo/Logger.h
--
-semaphore.h
--
-sstream
--
+/mnt/e/mprpc/test/Zookeeper.h
 

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/e/mprpc/src/MprpcChannel.cpp" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o"
   "/mnt/e/mprpc/src/MprpcConfig.cpp" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o"
   "/mnt/e/mprpc/src/RpcProvider.cpp" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o"
+  "/mnt/e/mprpc/src/Zookeeper.cpp" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/Zookeeper.cpp.o"
   "/mnt/e/mprpc/src/header.pb.cc" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/header.pb.cc.o"
   "/mnt/e/mprpc/src/user.pb.cc" "/mnt/e/mprpc/build/src/CMakeFiles/mprpc.dir/user.pb.cc.o"
   )
